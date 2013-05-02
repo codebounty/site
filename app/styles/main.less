@@ -1,0 +1,116 @@
+/**
+ * import dependencies
+ */
+@import "../components/bootstrap/less/bootstrap.less";
+@import "../components/bootstrap/less/responsive.less"; // Don't forget to edit the **responsive.less** to remove the second import call to **mixin.less** and **variable.less**
+
+@import "fonts.less";
+@import "header.less";
+@import "footer.less";
+@import "hacks.less";
+
+@brownDark:             #484640;
+@brown:                 #78665a;
+@brownLight:            #b49f82;
+@brownLighter:          #e0c39d;
+
+@bodyBackground:        @brownLighter;
+@textColor:             @brown;
+@linkColor:             @brownDark;
+
+
+@sansFontFamily:        "lato", Helvetica, Arial, sans-serif;
+@serifFontFamily:       "woodshopregular", Georgia, "Times New Roman", Times, serif;
+@headingsFontFamily:    @serifFontFamily;
+@headingsColor:         @brownDark;
+
+@baseFontSize:          16px;
+@fontSizeSmall:         @baseFontSize * 0.75; // ~12px
+@baseLineHeight:        23px;
+
+body {
+  background: @bodyBackground url('../images/body/noise.png');
+}
+small {
+  font-size: @fontSizeSmall;
+}
+
+.main > .row{
+  margin-top: @baseLineHeight * 4;
+}
+
+blockquote{
+  border: 0;
+  p{
+    font-size: @baseFontSize;
+    line-height: @baseLineHeight;
+    font-style: italic;
+  }
+  small{
+    float: right;
+    color: @textColor;
+    font-weight: bold;
+    font-size: 100%;
+  }
+}
+
+.btn,
+.btn-primary,
+.btn-info,
+.btn-success,
+.btn-warning,
+.btn-danger,
+.btn-inverse{
+  background-image: none;
+  border: 0;
+  .box-shadow(none);
+  text-shadow: none;
+}
+
+.align-right {
+  text-align: right;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+  text-shadow: -2px 2px 0 @brownLight;
+}
+
+hr{
+  margin-top: @baseLineHeight * 4;
+  background: url('../images/body/guns.png') 50% 50% no-repeat;
+  width: 130px;
+  height: 76px;
+  margin: auto;
+  border: 0;
+}
+
+hr:after,
+hr:before{
+  display: block;
+  content: "";
+  height: 2px;
+  width: 100px;
+  background-color: @brownDark;
+  position: relative;
+  top: 50%;
+}
+
+hr:before{
+  #gradient > .horizontal(@bodyBackground, @brownDark);
+  left: -130px;
+}
+hr:after{
+  #gradient > .horizontal(@brownDark, @bodyBackground);
+  right: -150px;
+}
+
+@media (max-width: 767px) {
+  body {padding: 0; }
+  .container {padding: 0 20px; }
+  header .protag {left: 0; }
+  header .antag {right: 0; }
+  header .board {right: 30px; }
+}
