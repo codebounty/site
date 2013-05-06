@@ -1,0 +1,67 @@
+body {
+  background: @bodyBackground url('../images/body/noise.png');
+}
+
+small {
+  font-size: @fontSizeSmall;
+}
+
+// .btn,
+// .btn-primary,
+// .btn-info,
+// .btn-success,
+// .btn-warning,
+// .btn-danger,
+// .btn-inverse{
+//   background-image: none;
+//   border: 0;
+//   .box-shadow(none);
+//   text-shadow: none;
+// }
+
+
+h1,
+h2,
+h3,
+h4,
+h5{
+  text-shadow: -2px 2px 0 @brownLight;
+}
+
+hr{
+  margin: @baseLineHeight * 2 auto;
+  background: url('../images/body/separator-guns.png') 50% 50% no-repeat;
+  width: 395px;
+  height: 62px;
+  border: 0;
+}
+
+
+blockquote{
+  border: 0;
+  p{
+    font-size: @baseFontSize * 1.25;
+    line-height: @baseLineHeight;
+    font-style: italic;
+  }
+  small{
+    float: right;
+    color: @textColor;
+    font-weight: bold;
+    font-size: 100%;
+  }
+  em{
+    color: @linkColor;
+  }
+  a{
+    text-decoration: underline;
+  }
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}

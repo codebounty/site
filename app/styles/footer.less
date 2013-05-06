@@ -19,4 +19,22 @@ footer{
     left: 50%;
     margin-left: -190px;
   }
+  .nav-footer{
+    margin: 10px 0;
+    font-size: @fontSizeSmall;
+    li{
+      display: inline-block;
+      padding-right: 20px;
+    }
+    li:not(:last-of-type):after{
+      content: '|';
+      margin-left: 20px;
+    }
+  }
+  a{
+    color: @brownLight;
+  }
+  a:hover{
+    color: @brownLighter;
+  }
 }
