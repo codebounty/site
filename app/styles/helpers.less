@@ -40,7 +40,7 @@ hr{
 blockquote{
   border: 0;
   p{
-    font-size: @baseFontSize * 1.25;
+    font-size: @fontSizeLarge;
     line-height: @baseLineHeight;
     font-style: italic;
   }
@@ -65,3 +65,34 @@ blockquote{
 .align-right {
   text-align: right;
 }
+
+.button{
+  padding: 6px 10px;
+  margin: 20px 5px;
+  .border-radius(@baseBorderRadius);
+  border: 3px solid @brown;
+  // #translucent > .border(@brownLight, 1);
+  // color: rgba(255, 255, 255, .5);
+  color: @brown;
+  background-image: 0;
+  text-shadow: 0;
+  text-transform: uppercase;
+  font-size: @fontSizeSmall;
+  .transition(all linear .3s);
+  &:hover{
+    text-decoration: none;
+    border-color: @brownDark;
+  }
+  &.primary{
+    #translucent > .border(@brown, 1);
+    background-image: 0;
+    background-color: @brown;
+    color: @brownLighter;
+    text-shadow: 0;
+    &:hover{
+      background-color: @brownDark;
+      border-color: @brownDark;
+    }
+  }
+}
+

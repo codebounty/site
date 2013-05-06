@@ -7350,8 +7350,8 @@ header .jumbotron {
   text-align: center;
 }
 
-body {
-  font-weight: 300;
+header nav {
+  margin: 26px 0;
 }
 
 .main {
@@ -7375,11 +7375,35 @@ body {
 }
 
 .quote {
-  padding: 104px 0 52px;
+  padding: 156px 0 0;
   text-align: center;
-  background: #e2c8a5 url('../images/body/noise.png');
-  border-top: 1px solid #c3b39c;
-  border-bottom: 1px solid #c3b39c;
+}
+
+.quote small {
+  margin-top: 26px;
+}
+
+.quote p {
+  position: relative;
+}
+
+.quote p:before,
+.quote p:after {
+  position: absolute;
+  top: 0;
+  font-family: "woodshopregular", Georgia, "Times New Roman", Times, serif;
+  font-size: 70px;
+  color: #b49f82;
+}
+
+.quote p:after {
+  right: -40px;
+  content: '\201D';
+}
+
+.quote p:before {
+  left: -40px;
+  content: '\201C';
 }
 
 .quote .row,
@@ -7387,16 +7411,61 @@ body {
   margin-top: 0;
 }
 
-.services p {
-  text-align: justify;
+.service,
+.quote {
+  border-top: 1px solid #c3b39c;
 }
 
-.services .span4 {
-  padding: 52px 13px;
+.service:nth-of-type(2n +1) {
+  background: #e2c8a5 url('../images/body/noise.png');
 }
 
-aside {
-  margin-top: 104px;
+.service {
+  position: relative;
+  padding: 104px 0 0;
+  -webkit-box-shadow: inset 0 -300px 300px -300px #beab92;
+     -moz-box-shadow: inset 0 -300px 300px -300px #beab92;
+          box-shadow: inset 0 -300px 300px -300px #beab92;
+}
+
+.service:after {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 208px;
+  content: "";
+}
+
+#browser-github,
+#browser-capture {
+  margin-bottom: -1px;
+}
+
+.browser-content {
+  background: #ffffff;
+}
+
+/*Lets create the magnifying glass*/
+
+.magnifier {
+  position: absolute;
+  top: 20px;
+  right: -60px;
+  z-index: 999;
+  width: 175px;
+  height: 175px;
+  background: #ffffff url('../images/body/sidebar-noshadow.png') 50% 50% no-repeat;
+  border-radius: 100%;
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+}
+
+.sheriff-2 {
+  text-align: right;
+}
+
+.sheriff-2 img {
+  margin-top: 30px;
+  margin-bottom: -22px;
 }
 
 aside nav {
@@ -7441,12 +7510,6 @@ footer .footer-bg {
   background-color: #e0c39d;
 }
 
-footer .footer-content {
-  color: #b49f82;
-  text-align: center;
-  background-color: #484640;
-}
-
 footer .antag-protag {
   position: absolute;
   bottom: 30px;
@@ -7457,23 +7520,35 @@ footer .antag-protag {
   background: url('../images/footer/antag-protag.png') 50% 50% no-repeat;
 }
 
-footer .nav-footer {
-  margin: 10px 0;
+footer .footer-content {
   font-size: 13.5px;
+  font-weight: normal;
+  line-height: 52px;
+  color: #b49f82;
+  background-color: #484640;
+}
+
+footer .footer-content p {
+  margin: 0;
+}
+
+footer .nav-footer {
+  display: inline;
+  margin-left: 5px;
 }
 
 footer .nav-footer li {
   display: inline-block;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
-footer .nav-footer li:not(:last-of-type):after {
-  margin-left: 20px;
-  content: '|';
+footer .nav-footer li:before {
+  margin-right: 10px;
+  content: '\00B7';
 }
 
 footer a {
-  color: #b49f82;
+  color: #e0c39d;
 }
 
 footer a:hover {
@@ -7535,6 +7610,45 @@ blockquote a {
 
 .align-right {
   text-align: right;
+}
+
+.button {
+  padding: 6px 10px;
+  margin: 20px 5px;
+  font-size: 13.5px;
+  color: #78665a;
+  text-shadow: 0;
+  text-transform: uppercase;
+  background-image: 0;
+  border: 3px solid #78665a;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-transition: all linear 0.3s;
+     -moz-transition: all linear 0.3s;
+       -o-transition: all linear 0.3s;
+          transition: all linear 0.3s;
+}
+
+.button:hover {
+  text-decoration: none;
+  border-color: #484640;
+}
+
+.button.primary {
+  color: #e0c39d;
+  text-shadow: 0;
+  background-color: #78665a;
+  background-image: 0;
+  border-color: #77665a;
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding-box;
+          background-clip: padding-box;
+}
+
+.button.primary:hover {
+  background-color: #484640;
+  border-color: #484640;
 }
 
 @media (max-width: 767px) {
