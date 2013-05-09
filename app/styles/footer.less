@@ -1,9 +1,35 @@
 footer{
+  position: relative;
   .footer-bg{
+    position: absolute;
+    width: 100%;
+    height: 283px;
+    #gradient > .vertical(rgba(224, 195, 157, 0), #9E5746);
+    background: url('../images/body/noise.png') repeat;
+    background-color: transparent;
+  }
+  .footer-bg:after{
+    content: "";
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: -100px;
+    background-color: #9E5746;
+  }
+  .footer-sunset{
     position: relative;
-    background: url('../images/footer/footer-bg.png') 50% 50% no-repeat, url('../images/body/noise.png') repeat;
+    background: url('../images/footer/sunset.png') 50% 0 no-repeat;
+    // background: url('../images/footer/sunset.png') 50% 0 no-repeat, url('../images/body/noise.png') repeat;
+    // background-color: @bodyBackground;
+    height: 361px;
+  }
+  .footer-sand{
+    position: relative;
+    width: 100%;
+    height: 98px;
+    bottom: 0;
+    background: url('../images/footer/sand-footer.png') 50% 50% no-repeat, url('../images/body/noise.png') repeat;
     background-color: @bodyBackground;
-    height: 453px;
   }
   .antag-protag{
     position: absolute;
