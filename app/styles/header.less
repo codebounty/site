@@ -14,11 +14,47 @@ header{
     // background: #96BEE4 url('../images/header/sky.png') center center no-repeat;
   }
   .clouds{
-    position: absolute;
-    top:0px;
-    width: 100%;
+    margin: auto;
+    position: relative;
+    width: 960px;
     height: 111px;
-    background: url('../images/header/clouds.png') center center no-repeat;
+    // background: url('../images/header/clouds.png') center center no-repeat;
+    .cloud-1 {
+      position: absolute;
+      background: url('../images/header/cloud-1.png') center center no-repeat;
+      width: 96px;
+      height: 28px;
+      top: 70px;
+      left: -125px;
+      -webkit-animation: cloud-animation 83s linear infinite;
+    }
+    .cloud-2 {
+      position: absolute;
+      background: url('../images/header/cloud-2.png') center center no-repeat;
+      width: 204px;
+      height: 61px;
+      top: 20px;
+      left: 50px;
+      -webkit-animation: cloud-animation 125s linear infinite;
+    }
+    .cloud-3 {
+      position: absolute;
+      background: url('../images/header/cloud-3.png') center center no-repeat;
+      width: 263px;
+      height: 103px;
+      top: 20px;
+      left: 300px;
+      -webkit-animation: cloud-animation 166s linear infinite;
+    }
+    .cloud-5 {
+      position: absolute;
+      background: url('../images/header/cloud-5.png') center center no-repeat;
+      width: 267px;
+      height: 86px;
+      top: 5px;
+      left: 800px;
+      -webkit-animation: cloud-animation 249s linear infinite;
+    }
   }
   .crops{
     position: absolute;
@@ -61,11 +97,12 @@ header{
     height: 151px;
     background: url('../images/header/antag.png') center center no-repeat;
   }
-  .front,
-  .jumbotron {
+  .front{
     position: relative;
+    top: -111px;
   }
   .jumbotron {
+    position: relative;
     text-align: center;
     margin-top: 45px;
     margin-bottom: @baseLineHeight * 4;
@@ -73,4 +110,12 @@ header{
   nav{
     margin: @baseLineHeight  0;
   }
+}
+
+
+@-webkit-keyframes cloud-animation {
+  0% { left: -500px; opacity: 0;}
+  5% {opacity: 100;}
+  95% {opacity: 100;}
+  100% { left: 1500px; opacity: 0;}
 }

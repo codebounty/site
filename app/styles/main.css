@@ -7288,11 +7288,50 @@ header .sky {
 }
 
 header .clouds {
-  position: absolute;
-  top: 0;
-  width: 100%;
+  position: relative;
+  width: 960px;
   height: 111px;
-  background: url('../images/header/clouds.png') center center no-repeat;
+  margin: auto;
+}
+
+header .clouds .cloud-1 {
+  position: absolute;
+  top: 70px;
+  left: -125px;
+  width: 96px;
+  height: 28px;
+  background: url('../images/header/cloud-1.png') center center no-repeat;
+  -webkit-animation: cloud-animation 83s linear infinite;
+}
+
+header .clouds .cloud-2 {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  width: 204px;
+  height: 61px;
+  background: url('../images/header/cloud-2.png') center center no-repeat;
+  -webkit-animation: cloud-animation 125s linear infinite;
+}
+
+header .clouds .cloud-3 {
+  position: absolute;
+  top: 20px;
+  left: 300px;
+  width: 263px;
+  height: 103px;
+  background: url('../images/header/cloud-3.png') center center no-repeat;
+  -webkit-animation: cloud-animation 166s linear infinite;
+}
+
+header .clouds .cloud-5 {
+  position: absolute;
+  top: 5px;
+  left: 800px;
+  width: 267px;
+  height: 86px;
+  background: url('../images/header/cloud-5.png') center center no-repeat;
+  -webkit-animation: cloud-animation 249s linear infinite;
 }
 
 header .crops {
@@ -7339,12 +7378,13 @@ header .antag {
   background: url('../images/header/antag.png') center center no-repeat;
 }
 
-header .front,
-header .jumbotron {
+header .front {
   position: relative;
+  top: -111px;
 }
 
 header .jumbotron {
+  position: relative;
   margin-top: 45px;
   margin-bottom: 104px;
   text-align: center;
@@ -7352,6 +7392,27 @@ header .jumbotron {
 
 header nav {
   margin: 26px 0;
+}
+
+@-webkit-keyframes cloud-animation {
+  0% {
+    left: -500px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100;
+  }
+  95% {
+    opacity: 100;
+  }
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+body {
+  overflow: hidden;
 }
 
 .main {
