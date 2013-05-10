@@ -7301,7 +7301,10 @@ header .clouds .cloud-1 {
   width: 96px;
   height: 28px;
   background: url('../images/header/cloud-1.png') center center no-repeat;
-  -webkit-animation: cloud-animation 83s linear infinite;
+  -webkit-animation: cloud-animation 83s linear infinite 0s;
+     -moz-animation: cloud-animation 83s linear infinite 0s;
+       -o-animation: cloud-animation 83s linear infinite 0s;
+          animation: cloud-animation 83s linear infinite 0s;
 }
 
 header .clouds .cloud-2 {
@@ -7311,7 +7314,10 @@ header .clouds .cloud-2 {
   width: 204px;
   height: 61px;
   background: url('../images/header/cloud-2.png') center center no-repeat;
-  -webkit-animation: cloud-animation 125s linear infinite;
+  -webkit-animation: cloud-animation 125s linear infinite 0s;
+     -moz-animation: cloud-animation 125s linear infinite 0s;
+       -o-animation: cloud-animation 125s linear infinite 0s;
+          animation: cloud-animation 125s linear infinite 0s;
 }
 
 header .clouds .cloud-3 {
@@ -7321,7 +7327,10 @@ header .clouds .cloud-3 {
   width: 263px;
   height: 103px;
   background: url('../images/header/cloud-3.png') center center no-repeat;
-  -webkit-animation: cloud-animation 166s linear infinite;
+  -webkit-animation: cloud-animation 166s linear infinite 0s;
+     -moz-animation: cloud-animation 166s linear infinite 0s;
+       -o-animation: cloud-animation 166s linear infinite 0s;
+          animation: cloud-animation 166s linear infinite 0s;
 }
 
 header .clouds .cloud-5 {
@@ -7331,7 +7340,10 @@ header .clouds .cloud-5 {
   width: 267px;
   height: 86px;
   background: url('../images/header/cloud-5.png') center center no-repeat;
-  -webkit-animation: cloud-animation 249s linear infinite;
+  -webkit-animation: cloud-animation 249s linear infinite 0s;
+     -moz-animation: cloud-animation 249s linear infinite 0s;
+       -o-animation: cloud-animation 249s linear infinite 0s;
+          animation: cloud-animation 249s linear infinite 0s;
 }
 
 header .crops {
@@ -7394,7 +7406,62 @@ header nav {
   margin: 26px 0;
 }
 
+/**
+ * Keyframe and animation mixin
+ */
+
 @-webkit-keyframes cloud-animation {
+  0% {
+    left: -500px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100;
+  }
+  95% {
+    opacity: 100;
+  }
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes cloud-animation {
+  0% {
+    left: -500px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100;
+  }
+  95% {
+    opacity: 100;
+  }
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+@-o-keyframes cloud-animation {
+  0% {
+    left: -500px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100;
+  }
+  95% {
+    opacity: 100;
+  }
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+@keyframes cloud-animation {
   0% {
     left: -500px;
     opacity: 0;

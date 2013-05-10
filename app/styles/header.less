@@ -26,7 +26,8 @@ header{
       height: 28px;
       top: 70px;
       left: -125px;
-      -webkit-animation: cloud-animation 83s linear infinite;
+      .animation(cloud-animation, 83s);
+      // -webkit-animation: cloud-animation 83s linear infinite;
     }
     .cloud-2 {
       position: absolute;
@@ -35,7 +36,8 @@ header{
       height: 61px;
       top: 20px;
       left: 50px;
-      -webkit-animation: cloud-animation 125s linear infinite;
+      .animation(cloud-animation, 125s);
+      // -webkit-animation: cloud-animation 125s linear infinite;
     }
     .cloud-3 {
       position: absolute;
@@ -44,7 +46,8 @@ header{
       height: 103px;
       top: 20px;
       left: 300px;
-      -webkit-animation: cloud-animation 166s linear infinite;
+      .animation(cloud-animation, 166s);
+      // -webkit-animation: cloud-animation 166s linear infinite;
     }
     .cloud-5 {
       position: absolute;
@@ -53,7 +56,8 @@ header{
       height: 86px;
       top: 5px;
       left: 800px;
-      -webkit-animation: cloud-animation 249s linear infinite;
+      .animation(cloud-animation, 249s);
+      // -webkit-animation: cloud-animation 249s linear infinite;
     }
   }
   .crops{
@@ -111,8 +115,38 @@ header{
   }
 }
 
+/**
+ * Keyframe and animation mixin
+ */
+
+.animation(@keyframe, @duration, @delay: 0s){
+  -webkit-animation: @keyframe @duration linear infinite @delay;
+     -moz-animation: @keyframe @duration linear infinite @delay;
+       -o-animation: @keyframe @duration linear infinite @delay;
+          animation: @keyframe @duration linear infinite @delay;
+}
 
 @-webkit-keyframes cloud-animation {
+  0% { left: -500px; opacity: 0;}
+  5% {opacity: 100;}
+  95% {opacity: 100;}
+  100% { left: 1500px; opacity: 0;}
+}
+
+@-moz-keyframes cloud-animation {
+  0% { left: -500px; opacity: 0;}
+  5% {opacity: 100;}
+  95% {opacity: 100;}
+  100% { left: 1500px; opacity: 0;}
+}
+
+@-o-keyframes cloud-animation {
+  0% { left: -500px; opacity: 0;}
+  5% {opacity: 100;}
+  95% {opacity: 100;}
+  100% { left: 1500px; opacity: 0;}
+}
+@keyframes cloud-animation {
   0% { left: -500px; opacity: 0;}
   5% {opacity: 100;}
   95% {opacity: 100;}
