@@ -7342,12 +7342,12 @@ header .crops {
   background: url('../images/header/crops.png') center center no-repeat;
 }
 
-header .landscape {
+header .sand {
   position: absolute;
   top: 144px;
   width: 100%;
-  height: 244px;
-  background: url('../images/header/sand.png') center center repeat-x, url('../images/body/noise.png') repeat;
+  height: 239px;
+  background: url('../images/header/sand.png') center center no-repeat, url('../images/body/noise.png') repeat;
   background-color: #e0c39d;
 }
 
