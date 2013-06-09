@@ -2,7 +2,7 @@
  * import dependencies
  */
 @import "../components/bootstrap/less/bootstrap.less";
-@import "../components/bootstrap/less/responsive.less"; // Don't forget to edit the **responsive.less** to remove the second import call to **mixin.less** and **variable.less**
+@import "../components/bootstrap/less/responsive.less"; // Don't forget to comment lines 21 and 22 to remove the second import call to **mixin.less** and **variable.less**
 
 @import "fonts.less";
 @import "header.less";
@@ -24,15 +24,24 @@
 @linkColor:             @brownDarker;
 
 
-@sansFontFamily:        "lato", Helvetica, Arial, sans-serif;
+@sansFontFamily:        "Futura_lt", Helvetica, Arial, sans-serif;
 @serifFontFamily:       "woodshopregular", Georgia, "Times New Roman", Times, serif;
-@headingsFontFamily:    @serifFontFamily;
+@headingsFontFamily:    @sansFontFamily;
 @headingsColor:         @brownDark;
 
-@baseFontSize:          18px;
+@baseFontSize:          30px;
 @fontSizeSmall:         @baseFontSize * 0.75; // ~12px
-@baseLineHeight:        26px;
+@baseLineHeight:        @baseFontSize * 1.41;
 
+h1{
+  font-size: 50px;
+  line-height: 1em;
+}
+
+h3{
+  font-size: 41px;
+  line-height: 1em;
+}
 
 
 

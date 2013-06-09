@@ -38,7 +38,7 @@
 .input-block-level {
   display: block;
   width: 100%;
-  min-height: 36px;
+  min-height: 52.3px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -227,9 +227,9 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "lato", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 26px;
+  font-family: "Futura_lt", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 42.3px;
   color: #78665a;
   background-color: #e0c39d;
 }
@@ -412,7 +412,7 @@ a:focus {
   display: block;
   float: left;
   width: 100%;
-  min-height: 36px;
+  min-height: 52.3px;
   margin-left: 2.127659574468085%;
   *margin-left: 2.074468085106383%;
   -webkit-box-sizing: border-box;
@@ -653,14 +653,14 @@ a:focus {
 }
 
 p {
-  margin: 0 0 13px;
+  margin: 0 0 21.15px;
 }
 
 .lead {
-  margin-bottom: 26px;
-  font-size: 27px;
+  margin-bottom: 42.3px;
+  font-size: 45px;
   font-weight: 200;
-  line-height: 39px;
+  line-height: 63.449999999999996px;
 }
 
 small {
@@ -742,10 +742,10 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 13px 0;
-  font-family: "woodshopregular", Georgia, "Times New Roman", Times, serif;
+  margin: 21.15px 0;
+  font-family: "Futura_lt", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  line-height: 26px;
+  line-height: 42.3px;
   color: #484640;
   text-rendering: optimizelegibility;
 }
@@ -764,59 +764,59 @@ h6 small {
 h1,
 h2,
 h3 {
-  line-height: 52px;
+  line-height: 84.6px;
 }
 
 h1 {
-  font-size: 49.5px;
+  font-size: 82.5px;
 }
 
 h2 {
-  font-size: 40.5px;
+  font-size: 67.5px;
 }
 
 h3 {
-  font-size: 31.5px;
+  font-size: 52.5px;
 }
 
 h4 {
-  font-size: 22.5px;
+  font-size: 37.5px;
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 h6 {
-  font-size: 15.299999999999999px;
+  font-size: 25.5px;
 }
 
 h1 small {
-  font-size: 31.5px;
+  font-size: 52.5px;
 }
 
 h2 small {
-  font-size: 22.5px;
+  font-size: 37.5px;
 }
 
 h3 small {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 h4 small {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .page-header {
-  padding-bottom: 12px;
-  margin: 26px 0 39px;
+  padding-bottom: 20.15px;
+  margin: 42.3px 0 63.449999999999996px;
   border-bottom: 1px solid #eeeeee;
 }
 
 ul,
 ol {
   padding: 0;
-  margin: 0 0 13px 25px;
+  margin: 0 0 21.15px 25px;
 }
 
 ul ul,
@@ -827,7 +827,7 @@ ol ul {
 }
 
 li {
-  line-height: 26px;
+  line-height: 42.3px;
 }
 
 ul.unstyled,
@@ -852,12 +852,12 @@ ol.inline > li {
 }
 
 dl {
-  margin-bottom: 26px;
+  margin-bottom: 42.3px;
 }
 
 dt,
 dd {
-  line-height: 26px;
+  line-height: 42.3px;
 }
 
 dt {
@@ -865,7 +865,7 @@ dt {
 }
 
 dd {
-  margin-left: 13px;
+  margin-left: 21.15px;
 }
 
 .dl-horizontal {
@@ -898,7 +898,7 @@ dd {
 }
 
 hr {
-  margin: 26px 0;
+  margin: 42.3px 0;
   border: 0;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #ffffff;
@@ -917,20 +917,20 @@ abbr.initialism {
 
 blockquote {
   padding: 0 0 0 15px;
-  margin: 0 0 26px;
+  margin: 0 0 42.3px;
   border-left: 5px solid #eeeeee;
 }
 
 blockquote p {
   margin-bottom: 0;
-  font-size: 22.5px;
+  font-size: 37.5px;
   font-weight: 300;
   line-height: 1.25;
 }
 
 blockquote small {
   display: block;
-  line-height: 26px;
+  line-height: 42.3px;
   color: #999999;
 }
 
@@ -968,16 +968,16 @@ blockquote:after {
 
 address {
   display: block;
-  margin-bottom: 26px;
+  margin-bottom: 42.3px;
   font-style: normal;
-  line-height: 26px;
+  line-height: 42.3px;
 }
 
 code,
 pre {
   padding: 0 3px 2px;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-  font-size: 16px;
+  font-size: 28px;
   color: #333333;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
@@ -994,10 +994,10 @@ code {
 
 pre {
   display: block;
-  padding: 12.5px;
-  margin: 0 0 13px;
-  font-size: 17px;
-  line-height: 26px;
+  padding: 20.65px;
+  margin: 0 0 21.15px;
+  font-size: 29px;
+  line-height: 42.3px;
   word-break: break-all;
   word-wrap: break-word;
   white-space: pre;
@@ -1011,7 +1011,7 @@ pre {
 }
 
 pre.prettyprint {
-  margin-bottom: 26px;
+  margin-bottom: 42.3px;
 }
 
 pre code {
@@ -1029,7 +1029,7 @@ pre code {
 }
 
 form {
-  margin: 0 0 26px;
+  margin: 0 0 42.3px;
 }
 
 fieldset {
@@ -1042,16 +1042,16 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 26px;
-  font-size: 27px;
-  line-height: 52px;
+  margin-bottom: 42.3px;
+  font-size: 45px;
+  line-height: 84.6px;
   color: #333333;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
 
 legend small {
-  font-size: 19.5px;
+  font-size: 31.724999999999998px;
   color: #999999;
 }
 
@@ -1060,16 +1060,16 @@ input,
 button,
 select,
 textarea {
-  font-size: 18px;
+  font-size: 30px;
   font-weight: normal;
-  line-height: 26px;
+  line-height: 42.3px;
 }
 
 input,
 button,
 select,
 textarea {
-  font-family: "lato", Helvetica, Arial, sans-serif;
+  font-family: "Futura_lt", Helvetica, Arial, sans-serif;
 }
 
 label {
@@ -1095,11 +1095,11 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
   display: inline-block;
-  height: 26px;
+  height: 42.3px;
   padding: 4px 6px;
-  margin-bottom: 13px;
-  font-size: 18px;
-  line-height: 26px;
+  margin-bottom: 21.15px;
+  font-size: 30px;
+  line-height: 42.3px;
   color: #555555;
   vertical-align: middle;
   -webkit-border-radius: 4px;
@@ -1190,13 +1190,13 @@ input[type="checkbox"] {
 
 select,
 input[type="file"] {
-  height: 36px;
+  height: 52.3px;
   /* In IE7, the height of the select element cannot be changed by height, only font-size */
 
   *margin-top: 4px;
   /* For IE7, add top margin to align select with labels */
 
-  line-height: 36px;
+  line-height: 52.3px;
 }
 
 select {
@@ -1257,7 +1257,7 @@ textarea::-webkit-input-placeholder {
 
 .radio,
 .checkbox {
-  min-height: 26px;
+  min-height: 42.3px;
   padding-left: 20px;
 }
 
@@ -1631,9 +1631,9 @@ select:focus:invalid:focus {
 }
 
 .form-actions {
-  padding: 25px 20px 26px;
-  margin-top: 26px;
-  margin-bottom: 26px;
+  padding: 41.3px 20px 42.3px;
+  margin-top: 42.3px;
+  margin-bottom: 42.3px;
   background-color: #f5f5f5;
   border-top: 1px solid #e5e5e5;
   *zoom: 1;
@@ -1657,7 +1657,7 @@ select:focus:invalid:focus {
 
 .help-block {
   display: block;
-  margin-bottom: 13px;
+  margin-bottom: 21.15px;
 }
 
 .help-inline {
@@ -1671,7 +1671,7 @@ select:focus:invalid:focus {
 .input-append,
 .input-prepend {
   display: inline-block;
-  margin-bottom: 13px;
+  margin-bottom: 21.15px;
   font-size: 0;
   white-space: nowrap;
   vertical-align: middle;
@@ -1687,7 +1687,7 @@ select:focus:invalid:focus {
 .input-prepend .dropdown-menu,
 .input-append .popover,
 .input-prepend .popover {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .input-append input,
@@ -1718,12 +1718,12 @@ select:focus:invalid:focus {
 .input-prepend .add-on {
   display: inline-block;
   width: auto;
-  height: 26px;
+  height: 42.3px;
   min-width: 16px;
   padding: 4px 5px;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: normal;
-  line-height: 26px;
+  line-height: 42.3px;
   text-align: center;
   text-shadow: 0 1px 0 #ffffff;
   background-color: #eeeeee;
@@ -1939,16 +1939,16 @@ input.search-query {
 }
 
 .control-group {
-  margin-bottom: 13px;
+  margin-bottom: 21.15px;
 }
 
 legend + .control-group {
-  margin-top: 26px;
+  margin-top: 42.3px;
   -webkit-margin-top-collapse: separate;
 }
 
 .form-horizontal .control-group {
-  margin-bottom: 26px;
+  margin-bottom: 42.3px;
   *zoom: 1;
 }
 
@@ -1991,7 +1991,7 @@ legend + .control-group {
 .form-horizontal .uneditable-input + .help-block,
 .form-horizontal .input-prepend + .help-block,
 .form-horizontal .input-append + .help-block {
-  margin-top: 13px;
+  margin-top: 21.15px;
 }
 
 .form-horizontal .form-actions {
@@ -2007,13 +2007,13 @@ table {
 
 .table {
   width: 100%;
-  margin-bottom: 26px;
+  margin-bottom: 42.3px;
 }
 
 .table th,
 .table td {
   padding: 8px;
-  line-height: 26px;
+  line-height: 42.3px;
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #dddddd;
@@ -2941,7 +2941,7 @@ table th[class*="span"],
 .dropdown-menu .divider {
   *width: 100%;
   height: 1px;
-  margin: 12px 1px;
+  margin: 20.15px 1px;
   *margin: -5px 0 5px;
   overflow: hidden;
   background-color: #e5e5e5;
@@ -2953,7 +2953,7 @@ table th[class*="span"],
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
-  line-height: 26px;
+  line-height: 42.3px;
   color: #333333;
   white-space: nowrap;
 }
@@ -3166,7 +3166,7 @@ table th[class*="span"],
   float: right;
   font-size: 20px;
   font-weight: bold;
-  line-height: 26px;
+  line-height: 42.3px;
   color: #000000;
   text-shadow: 0 1px 0 #ffffff;
   opacity: 0.2;
@@ -3196,8 +3196,8 @@ button.close {
   padding: 4px 12px;
   margin-bottom: 0;
   *margin-left: .3em;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 30px;
+  line-height: 42.3px;
   color: #333333;
   text-align: center;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
@@ -3286,7 +3286,7 @@ button.close {
 
 .btn-large {
   padding: 11px 19px;
-  font-size: 22.5px;
+  font-size: 37.5px;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
@@ -3299,7 +3299,7 @@ button.close {
 
 .btn-small {
   padding: 2px 10px;
-  font-size: 13.5px;
+  font-size: 22.5px;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
@@ -3317,7 +3317,7 @@ button.close {
 
 .btn-mini {
   padding: 0 6px;
-  font-size: 13.5px;
+  font-size: 22.5px;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
@@ -3632,8 +3632,8 @@ input[type="submit"].btn.btn-mini {
 }
 
 .btn-toolbar {
-  margin-top: 13px;
-  margin-bottom: 13px;
+  margin-top: 21.15px;
+  margin-bottom: 21.15px;
   font-size: 0;
 }
 
@@ -3657,19 +3657,19 @@ input[type="submit"].btn.btn-mini {
 .btn-group > .btn,
 .btn-group > .dropdown-menu,
 .btn-group > .popover {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .btn-group > .btn-mini {
-  font-size: 13.5px;
+  font-size: 22.5px;
 }
 
 .btn-group > .btn-small {
-  font-size: 13.5px;
+  font-size: 22.5px;
 }
 
 .btn-group > .btn-large {
-  font-size: 22.5px;
+  font-size: 37.5px;
 }
 
 .btn-group > .btn:first-child {
@@ -3870,7 +3870,7 @@ input[type="submit"].btn.btn-mini {
 
 .alert {
   padding: 8px 35px 8px 14px;
-  margin-bottom: 26px;
+  margin-bottom: 42.3px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   background-color: #fcf8e3;
   border: 1px solid #fbeed5;
@@ -3892,7 +3892,7 @@ input[type="submit"].btn.btn-mini {
   position: relative;
   top: -2px;
   right: -21px;
-  line-height: 26px;
+  line-height: 42.3px;
 }
 
 .alert-success {
@@ -3942,7 +3942,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav {
-  margin-bottom: 26px;
+  margin-bottom: 42.3px;
   margin-left: 0;
   list-style: none;
 }
@@ -3970,7 +3970,7 @@ input[type="submit"].btn.btn-mini {
   padding: 3px 15px;
   font-size: 11px;
   font-weight: bold;
-  line-height: 26px;
+  line-height: 42.3px;
   color: #999999;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
@@ -4013,7 +4013,7 @@ input[type="submit"].btn.btn-mini {
 .nav-list .divider {
   *width: 100%;
   height: 1px;
-  margin: 12px 1px;
+  margin: 20.15px 1px;
   *margin: -5px 0 5px;
   overflow: hidden;
   background-color: #e5e5e5;
@@ -4063,7 +4063,7 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs > li > a {
   padding-top: 8px;
   padding-bottom: 8px;
-  line-height: 26px;
+  line-height: 42.3px;
   border: 1px solid transparent;
   -webkit-border-radius: 4px 4px 0 0;
      -moz-border-radius: 4px 4px 0 0;
@@ -4360,7 +4360,7 @@ input[type="submit"].btn.btn-mini {
 .navbar {
   *position: relative;
   *z-index: 2;
-  margin-bottom: 26px;
+  margin-bottom: 42.3px;
   overflow: visible;
 }
 
@@ -4409,7 +4409,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   display: block;
   float: left;
-  padding: 7px 20px 7px;
+  padding: -1.1499999999999986px 20px -1.1499999999999986px;
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
@@ -4514,7 +4514,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   padding: 4px 14px;
   margin-bottom: 0;
-  font-family: "lato", Helvetica, Arial, sans-serif;
+  font-family: "Futura_lt", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -4607,7 +4607,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar .nav > li > a {
   float: none;
-  padding: 7px 15px 7px;
+  padding: -1.1499999999999986px 15px -1.1499999999999986px;
   color: #777777;
   text-decoration: none;
   text-shadow: 0 1px 0 #ffffff;
@@ -4943,7 +4943,7 @@ input[type="submit"].btn.btn-mini {
 
 .breadcrumb {
   padding: 8px 15px;
-  margin: 0 0 26px;
+  margin: 0 0 42.3px;
   list-style: none;
   background-color: #f5f5f5;
   -webkit-border-radius: 4px;
@@ -4968,7 +4968,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .pagination {
-  margin: 26px 0;
+  margin: 42.3px 0;
 }
 
 .pagination ul {
@@ -4993,7 +4993,7 @@ input[type="submit"].btn.btn-mini {
 .pagination ul > li > span {
   float: left;
   padding: 4px 12px;
-  line-height: 26px;
+  line-height: 42.3px;
   text-decoration: none;
   background-color: #ffffff;
   border: 1px solid #dddddd;
@@ -5054,7 +5054,7 @@ input[type="submit"].btn.btn-mini {
 .pagination-large ul > li > a,
 .pagination-large ul > li > span {
   padding: 11px 19px;
-  font-size: 22.5px;
+  font-size: 37.5px;
 }
 
 .pagination-large ul > li:first-child > a,
@@ -5104,17 +5104,17 @@ input[type="submit"].btn.btn-mini {
 .pagination-small ul > li > a,
 .pagination-small ul > li > span {
   padding: 2px 10px;
-  font-size: 13.5px;
+  font-size: 22.5px;
 }
 
 .pagination-mini ul > li > a,
 .pagination-mini ul > li > span {
   padding: 0 6px;
-  font-size: 13.5px;
+  font-size: 22.5px;
 }
 
 .pager {
-  margin: 26px 0;
+  margin: 42.3px 0;
   text-align: center;
   list-style: none;
   *zoom: 1;
@@ -5545,14 +5545,14 @@ input[type="submit"].btn.btn-mini {
 
 .thumbnails > li {
   float: left;
-  margin-bottom: 26px;
+  margin-bottom: 42.3px;
   margin-left: 20px;
 }
 
 .thumbnail {
   display: block;
   padding: 4px;
-  line-height: 26px;
+  line-height: 42.3px;
   border: 1px solid #ddd;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
@@ -5627,7 +5627,7 @@ a.thumbnail:focus {
 .badge {
   display: inline-block;
   padding: 2px 4px;
-  font-size: 15.228px;
+  font-size: 25.38px;
   font-weight: bold;
   line-height: 14px;
   color: #ffffff;
@@ -5772,8 +5772,8 @@ a.badge:focus {
 }
 
 .progress {
-  height: 26px;
-  margin-bottom: 26px;
+  height: 42.3px;
+  margin-bottom: 42.3px;
   overflow: hidden;
   background-color: #f7f7f7;
   background-image: -moz-linear-gradient(top, #f5f5f5, #f9f9f9);
@@ -5935,7 +5935,7 @@ a.badge:focus {
 }
 
 .accordion {
-  margin-bottom: 26px;
+  margin-bottom: 42.3px;
 }
 
 .accordion-group {
@@ -5966,7 +5966,7 @@ a.badge:focus {
 
 .carousel {
   position: relative;
-  margin-bottom: 26px;
+  margin-bottom: 42.3px;
   line-height: 1;
 }
 
@@ -6100,7 +6100,7 @@ a.badge:focus {
 
 .carousel-caption h4,
 .carousel-caption p {
-  line-height: 26px;
+  line-height: 42.3px;
   color: #ffffff;
 }
 
@@ -6117,7 +6117,7 @@ a.badge:focus {
   margin-bottom: 30px;
   font-size: 18px;
   font-weight: 200;
-  line-height: 39px;
+  line-height: 63.449999999999996px;
   color: inherit;
   background-color: #eeeeee;
   -webkit-border-radius: 6px;
@@ -6134,7 +6134,7 @@ a.badge:focus {
 }
 
 .hero-unit li {
-  line-height: 39px;
+  line-height: 63.449999999999996px;
 }
 
 .pull-right {
@@ -6353,7 +6353,7 @@ a.badge:focus {
     display: block;
     float: left;
     width: 100%;
-    min-height: 36px;
+    min-height: 52.3px;
     margin-left: 2.564102564102564%;
     *margin-left: 2.5109110747408616%;
     -webkit-box-sizing: border-box;
@@ -6703,7 +6703,7 @@ a.badge:focus {
     display: block;
     float: left;
     width: 100%;
-    min-height: 36px;
+    min-height: 52.3px;
     margin-left: 2.7624309392265194%;
     *margin-left: 2.709239449864817%;
     -webkit-box-sizing: border-box;
@@ -6997,7 +6997,7 @@ a.badge:focus {
   .uneditable-input {
     display: block;
     width: 100%;
-    min-height: 36px;
+    min-height: 52.3px;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
@@ -7034,7 +7034,7 @@ a.badge:focus {
   }
   .page-header h1 small {
     display: block;
-    line-height: 26px;
+    line-height: 42.3px;
   }
   input[type="checkbox"],
   input[type="radio"] {
@@ -7089,10 +7089,10 @@ a.badge:focus {
     position: static;
   }
   .navbar-fixed-top {
-    margin-bottom: 26px;
+    margin-bottom: 42.3px;
   }
   .navbar-fixed-bottom {
-    margin-top: 26px;
+    margin-top: 42.3px;
   }
   .navbar-fixed-top .navbar-inner,
   .navbar-fixed-bottom .navbar-inner {
@@ -7112,7 +7112,7 @@ a.badge:focus {
   }
   .nav-collapse .nav {
     float: none;
-    margin: 0 0 13px;
+    margin: 0 0 21.15px;
   }
   .nav-collapse .nav > li {
     float: none;
@@ -7201,8 +7201,8 @@ a.badge:focus {
   .nav-collapse .navbar-form,
   .nav-collapse .navbar-search {
     float: none;
-    padding: 13px 15px;
-    margin: 13px 0;
+    padding: 21.15px 15px;
+    margin: 21.15px 0;
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -7248,27 +7248,27 @@ a.badge:focus {
 }
 
 @font-face {
-  font-family: 'futura_ltregular';
+  font-family: 'futura_lt';
   font-style: normal;
   font-weight: normal;
-  src: url('../fonts/futuralt-webfont.eot');
-  src: url('../fonts/futuralt-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/futuralt-webfont.woff') format('woff'), url('../fonts/futuralt-webfont.ttf') format('truetype'), url('../fonts/futuralt-webfont.svg#futura_ltregular') format('svg');
+  src: url('../fonts/FuturaLT.eot');
+  src: url('../fonts/FuturaLT.eot?#iefix') format('embedded-opentype'), url('../fonts/FuturaLT.woff') format('woff'), url('../fonts/FuturaLT.ttf') format('truetype'), url('../fonts/FuturaLT.svg#futura_lt') format('svg');
 }
 
 @font-face {
-  font-family: 'futura_ltheavy';
+  font-family: 'futura_lt_heavy';
   font-style: normal;
   font-weight: normal;
-  src: url('../fonts/futuralt-heavy-webfont.eot');
-  src: url('../fonts/futuralt-heavy-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/futuralt-heavy-webfont.woff') format('woff'), url('../fonts/futuralt-heavy-webfont.ttf') format('truetype'), url('../fonts/futuralt-heavy-webfont.svg#futura_ltheavy') format('svg');
+  src: url('../fonts/FuturaLT-Heavy.eot');
+  src: url('../fonts/FuturaLT-Heavy.eot?#iefix') format('embedded-opentype'), url('../fonts/FuturaLT-Heavy.woff') format('woff'), url('../fonts/FuturaLT-Heavy.ttf') format('truetype'), url('../fonts/FuturaLT-Heavy.svg#futura_lt_heavy') format('svg');
 }
 
 @font-face {
-  font-family: 'futura_ltlightoblique';
+  font-family: 'futura_lt_book';
   font-style: normal;
   font-weight: normal;
-  src: url('../fonts/futuralt-lightoblique-webfont.eot');
-  src: url('../fonts/futuralt-lightoblique-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/futuralt-lightoblique-webfont.woff') format('woff'), url('../fonts/futuralt-lightoblique-webfont.ttf') format('truetype'), url('../fonts/futuralt-lightoblique-webfont.svg#futura_ltlightoblique') format('svg');
+  src: url('../fonts/FuturaLT-Book.eot');
+  src: url('../fonts/FuturaLT-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/FuturaLT-Book.woff') format('woff'), url('../fonts/FuturaLT-Book.ttf') format('truetype'), url('../fonts/FuturaLT-Book.svg#futura_lt_book') format('svg');
 }
 
 /**
@@ -7283,7 +7283,7 @@ header .sky {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 203px;
+  height: 255px;
   background: #96BEE4;
 }
 
@@ -7298,9 +7298,9 @@ header .clouds .cloud-1 {
   position: absolute;
   top: 70px;
   left: -125px;
-  width: 96px;
-  height: 28px;
-  background: url('../images/header/cloud-1.png') center center no-repeat;
+  width: 192px;
+  height: 55px;
+  background: url('../images/header/cloud-1@2x.png') center center no-repeat;
   -webkit-animation: cloud-animation 83s linear infinite 0s;
      -moz-animation: cloud-animation 83s linear infinite 0s;
        -o-animation: cloud-animation 83s linear infinite 0s;
@@ -7311,83 +7311,83 @@ header .clouds .cloud-2 {
   position: absolute;
   top: 20px;
   left: 50px;
-  width: 204px;
-  height: 61px;
-  background: url('../images/header/cloud-2.png') center center no-repeat;
-  -webkit-animation: cloud-animation 125s linear infinite 0s;
-     -moz-animation: cloud-animation 125s linear infinite 0s;
-       -o-animation: cloud-animation 125s linear infinite 0s;
-          animation: cloud-animation 125s linear infinite 0s;
+  width: 407px;
+  height: 121px;
+  background: url('../images/header/cloud-2@2x.png') center center no-repeat;
+  -webkit-animation: cloud-animation-2 125s linear infinite 0s;
+     -moz-animation: cloud-animation-2 125s linear infinite 0s;
+       -o-animation: cloud-animation-2 125s linear infinite 0s;
+          animation: cloud-animation-2 125s linear infinite 0s;
 }
 
 header .clouds .cloud-3 {
   position: absolute;
   top: 20px;
   left: 300px;
-  width: 263px;
-  height: 103px;
-  background: url('../images/header/cloud-3.png') center center no-repeat;
-  -webkit-animation: cloud-animation 166s linear infinite 0s;
-     -moz-animation: cloud-animation 166s linear infinite 0s;
-       -o-animation: cloud-animation 166s linear infinite 0s;
-          animation: cloud-animation 166s linear infinite 0s;
+  width: 525px;
+  height: 206px;
+  background: url('../images/header/cloud-3@2x.png') center center no-repeat;
+  -webkit-animation: cloud-animation-3 166s linear infinite 0s;
+     -moz-animation: cloud-animation-3 166s linear infinite 0s;
+       -o-animation: cloud-animation-3 166s linear infinite 0s;
+          animation: cloud-animation-3 166s linear infinite 0s;
 }
 
 header .clouds .cloud-5 {
   position: absolute;
   top: 5px;
   left: 800px;
-  width: 267px;
-  height: 86px;
-  background: url('../images/header/cloud-5.png') center center no-repeat;
-  -webkit-animation: cloud-animation 249s linear infinite 0s;
-     -moz-animation: cloud-animation 249s linear infinite 0s;
-       -o-animation: cloud-animation 249s linear infinite 0s;
-          animation: cloud-animation 249s linear infinite 0s;
+  width: 534px;
+  height: 171px;
+  background: url('../images/header/cloud-5@2x.png') center center no-repeat;
+  -webkit-animation: cloud-animation-5 249s linear infinite 0s;
+     -moz-animation: cloud-animation-5 249s linear infinite 0s;
+       -o-animation: cloud-animation-5 249s linear infinite 0s;
+          animation: cloud-animation-5 249s linear infinite 0s;
 }
 
 header .crops {
   position: absolute;
   top: 5px;
   width: 100%;
-  height: 152px;
-  background: url('../images/header/crops.png') center center no-repeat;
+  height: 271px;
+  background: url('../images/header/crops@2x.png') 44% center no-repeat;
 }
 
 header .sand {
   position: absolute;
-  top: 144px;
+  top: 268px;
   width: 100%;
-  height: 239px;
-  background: url('../images/header/sand.png') center center no-repeat, url('../images/body/noise.png') repeat;
+  height: 477px;
+  background: url('../images/header/sand@2x.png') center center no-repeat, url('../images/body/noise.png') repeat;
   background-color: #e0c39d;
 }
 
 header .board {
   position: absolute;
-  top: 95px;
-  right: 25%;
-  width: 251px;
-  height: 151px;
-  background: url('../images/header/board.png') center center no-repeat;
+  top: 160px;
+  right: 13%;
+  width: 502px;
+  height: 301px;
+  background: url('../images/header/board@2x.png') center center no-repeat;
 }
 
 header .protag {
   position: absolute;
-  top: 95px;
-  left: 20%;
-  width: 161px;
-  height: 172px;
-  background: url('../images/header/protag.png') center center no-repeat;
+  top: 194px;
+  left: 0;
+  width: 322px;
+  height: 343px;
+  background: url('../images/header/protag@2x.png') center center no-repeat;
 }
 
 header .antag {
   position: absolute;
-  top: 175px;
-  right: 20%;
-  width: 159px;
-  height: 151px;
-  background: url('../images/header/antag.png') center center no-repeat;
+  top: 331px;
+  right: 0;
+  width: 317px;
+  height: 302px;
+  background: url('../images/header/antag@2x.png') center center no-repeat;
 }
 
 header .front {
@@ -7397,22 +7397,18 @@ header .front {
 
 header .jumbotron {
   position: relative;
-  margin-top: 45px;
-  margin-bottom: 104px;
+  margin-top: 345px;
+  margin-bottom: 169.2px;
   text-align: center;
 }
 
 header nav {
-  margin: 26px 0;
+  margin: 42.3px 0;
 }
-
-/**
- * Keyframe and animation mixin
- */
 
 @-webkit-keyframes cloud-animation {
   0% {
-    left: -500px;
+    left: -151px;
     opacity: 0;
   }
   5% {
@@ -7429,7 +7425,7 @@ header nav {
 
 @-moz-keyframes cloud-animation {
   0% {
-    left: -500px;
+    left: -151px;
     opacity: 0;
   }
   5% {
@@ -7446,7 +7442,7 @@ header nav {
 
 @-o-keyframes cloud-animation {
   0% {
-    left: -500px;
+    left: -151px;
     opacity: 0;
   }
   5% {
@@ -7463,7 +7459,7 @@ header nav {
 
 @keyframes cloud-animation {
   0% {
-    left: -500px;
+    left: -151px;
     opacity: 0;
   }
   5% {
@@ -7478,12 +7474,216 @@ header nav {
   }
 }
 
-body {
-  overflow-x: hidden;
+@-webkit-keyframes cloud-animation-2 {
+  0% {
+    left: 50px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100;
+  }
+  95% {
+    opacity: 100;
+  }
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
 }
 
-.main {
-  margin-top: 104px;
+@-moz-keyframes cloud-animation-2 {
+  0% {
+    left: 50px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100;
+  }
+  95% {
+    opacity: 100;
+  }
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+@-o-keyframes cloud-animation-2 {
+  0% {
+    left: 50px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100;
+  }
+  95% {
+    opacity: 100;
+  }
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+@keyframes cloud-animation-2 {
+  0% {
+    left: 50px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100;
+  }
+  95% {
+    opacity: 100;
+  }
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes cloud-animation-3 {
+  0% {
+    left: 300px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100;
+  }
+  95% {
+    opacity: 100;
+  }
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes cloud-animation-3 {
+  0% {
+    left: 300px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100;
+  }
+  95% {
+    opacity: 100;
+  }
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+@-o-keyframes cloud-animation-3 {
+  0% {
+    left: 300px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100;
+  }
+  95% {
+    opacity: 100;
+  }
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+@keyframes cloud-animation-3 {
+  0% {
+    left: 300px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100;
+  }
+  95% {
+    opacity: 100;
+  }
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes cloud-animation-4 {
+  0% {
+    left: 800px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100;
+  }
+  95% {
+    opacity: 100;
+  }
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes cloud-animation-4 {
+  0% {
+    left: 800px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100;
+  }
+  95% {
+    opacity: 100;
+  }
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+@-o-keyframes cloud-animation-4 {
+  0% {
+    left: 800px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100;
+  }
+  95% {
+    opacity: 100;
+  }
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+@keyframes cloud-animation-4 {
+  0% {
+    left: 800px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 100;
+  }
+  95% {
+    opacity: 100;
+  }
+  100% {
+    left: 1500px;
+    opacity: 0;
+  }
+}
+
+/**
+ * Keyframe and animation mixin
+ */
+
+body {
+  overflow-x: hidden;
 }
 
 .main header {
@@ -7502,89 +7702,55 @@ body {
   zoom: 80%;
 }
 
-.quote {
-  padding: 156px 0 0;
-  text-align: center;
+blockquote {
+  padding: 21.15px 0 0;
 }
 
-.quote small {
-  margin-top: 26px;
+blockquote p {
+  font-style: normal;
+  font-weight: bold;
 }
 
-.quote p {
+aside .row {
   position: relative;
 }
 
-.quote p:before,
-.quote p:after {
+aside .row .kid {
   position: absolute;
   top: 0;
-  font-family: "woodshopregular", Georgia, "Times New Roman", Times, serif;
-  font-size: 70px;
-  color: #b49f82;
-}
-
-.quote p:after {
-  right: -40px;
-  content: '\201D';
-}
-
-.quote p:before {
-  left: -40px;
-  content: '\201C';
-}
-
-.quote .row,
-.quote .row-fluid {
-  margin-top: 0;
-}
-
-.service,
-.quote {
-  border-top: 1px solid #c3b39c;
-}
-
-.service:nth-of-type(2n +1) {
-  background: #e2c8a5 url('../images/body/noise.png');
-}
-
-.service {
-  position: relative;
-  padding: 104px 0 0;
-  -webkit-box-shadow: inset 0 -300px 300px -300px #beab92;
-     -moz-box-shadow: inset 0 -300px 300px -300px #beab92;
-          box-shadow: inset 0 -300px 300px -300px #beab92;
+  right: 0;
 }
 
 .service:after {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 208px;
+  height: 338.4px;
   content: "";
 }
 
-#browser-github,
-#browser-capture {
-  margin-bottom: -1px;
+.capture-bounty-board {
+  padding-top: 60px;
 }
 
-.browser-content {
-  background: #ffffff;
+.sheriff-container {
+  margin-left: -50px;
 }
 
-/*Lets create the magnifying glass*/
+.github-container,
+.bounty-board {
+  position: relative;
+}
 
-.magnifier {
+.github-container img,
+.bounty-board img {
   position: absolute;
-  top: 20px;
-  right: -60px;
-  z-index: 999;
-  width: 175px;
-  height: 175px;
-  background: #ffffff url('../images/body/sidebar-noshadow.png') 50% 50% no-repeat;
-  border-radius: 100%;
-  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+}
+
+.github-container .arrow,
+.bounty-board .arrow {
+  position: absolute;
+  left: 50px;
 }
 
 .sheriff-2 {
@@ -7686,9 +7852,9 @@ footer .antag-protag {
 }
 
 footer .footer-content {
-  font-size: 13.5px;
+  font-size: 16px;
   font-weight: normal;
-  line-height: 52px;
+  line-height: 84.6px;
   color: #b49f82;
   background-color: #484640;
 }
@@ -7725,23 +7891,18 @@ body {
 }
 
 small {
-  font-size: 13.5px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  text-shadow: -2px 2px 0 #b49f82;
+  font-size: 22.5px;
 }
 
 hr {
-  width: 395px;
-  height: 62px;
-  margin: 52px auto;
-  background: url('../images/body/separator-guns.png') 50% 50% no-repeat;
-  border: 0;
+  width: 770px;
+  margin: 42.3px auto;
+  border: 1px solid #b49f82;
+}
+
+hr.small {
+  width: 500px;
+  margin: 60px auto;
 }
 
 blockquote {
@@ -7749,14 +7910,13 @@ blockquote {
 }
 
 blockquote p {
-  font-size: 22.5px;
-  font-style: italic;
-  line-height: 26px;
+  font-size: 28px;
+  line-height: 42.3px;
 }
 
 blockquote small {
   float: right;
-  font-size: 100%;
+  font-size: 28px;
   font-weight: bold;
   color: #78665a;
 }
@@ -7780,7 +7940,7 @@ blockquote a {
 .button {
   padding: 6px 10px;
   margin: 20px 5px;
-  font-size: 13.5px;
+  font-size: 22.5px;
   color: #78665a;
   text-shadow: 0;
   text-transform: uppercase;
@@ -7832,4 +7992,14 @@ blockquote a {
   header .board {
     right: 30px;
   }
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1em;
+}
+
+h3 {
+  font-size: 41px;
+  line-height: 1em;
 }

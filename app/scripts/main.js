@@ -19,23 +19,6 @@
   //
 
   /**
-   * Browserwrapper
-   */
-  $('#browser-github').browserWrapper({
-    browserTitle:     'Windows Support · Issue #216 · yeoman/yeoman',
-    browserURL:       'https://github.com/yeoman/yeoman/issues/216',
-    filePath:         'components/browserWrapper-lite/src/',
-    shadow:           '0',
-  });
-
-  $('#browser-capture').browserWrapper({
-    browserTitle:     'Windows Support · Issue #216 · yeoman/yeoman',
-    browserURL:       'https://github.com/yeoman/yeoman/issues/216',
-    filePath:         'components/browserWrapper-lite/src/',
-    shadow:           '0',
-  });
-
-  /**
    * Scroll to detail section
    */
   $('.howto').click(function(e) {

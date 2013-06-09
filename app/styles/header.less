@@ -9,7 +9,7 @@ header{
     position: absolute;
     top: 0;
     width: 100%;
-    height: 203px;
+    height: 255px;
     background: #96BEE4;
     // background: #96BEE4 url('../images/header/sky.png') center center no-repeat;
   }
@@ -21,9 +21,9 @@ header{
     // background: url('../images/header/clouds.png') center center no-repeat;
     .cloud-1 {
       position: absolute;
-      background: url('../images/header/cloud-1.png') center center no-repeat;
-      width: 96px;
-      height: 28px;
+      background: url('../images/header/cloud-1@2x.png') center center no-repeat;
+      width: 192px;
+      height: 55px;
       top: 70px;
       left: -125px;
       .animation(cloud-animation, 83s);
@@ -31,32 +31,32 @@ header{
     }
     .cloud-2 {
       position: absolute;
-      background: url('../images/header/cloud-2.png') center center no-repeat;
-      width: 204px;
-      height: 61px;
+      background: url('../images/header/cloud-2@2x.png') center center no-repeat;
+      width: 407px;
+      height: 121px;
       top: 20px;
       left: 50px;
-      .animation(cloud-animation, 125s);
+      .animation(cloud-animation-2, 125s);
       // -webkit-animation: cloud-animation 125s linear infinite;
     }
     .cloud-3 {
       position: absolute;
-      background: url('../images/header/cloud-3.png') center center no-repeat;
-      width: 263px;
-      height: 103px;
+      background: url('../images/header/cloud-3@2x.png') center center no-repeat;
+      width: 525px;
+      height: 206px;
       top: 20px;
       left: 300px;
-      .animation(cloud-animation, 166s);
+      .animation(cloud-animation-3, 166s);
       // -webkit-animation: cloud-animation 166s linear infinite;
     }
     .cloud-5 {
       position: absolute;
-      background: url('../images/header/cloud-5.png') center center no-repeat;
-      width: 267px;
-      height: 86px;
+      background: url('../images/header/cloud-5@2x.png') center center no-repeat;
+      width: 534px;
+      height: 171px;
       top: 5px;
       left: 800px;
-      .animation(cloud-animation, 249s);
+      .animation(cloud-animation-5, 249s);
       // -webkit-animation: cloud-animation 249s linear infinite;
     }
   }
@@ -64,41 +64,41 @@ header{
     position: absolute;
     top: 5px;
     width: 100%;
-    height: 152px;
-    background: url('../images/header/crops.png') center center no-repeat;
+    height: 271px;
+    background: url('../images/header/crops@2x.png') 44% center no-repeat;
 
   }
   .sand{
     position: absolute;
-    top: 144px;
+    top: 268px;
     width: 100%;
-    height: 239px;
-    background: url('../images/header/sand.png') center center no-repeat, url('../images/body/noise.png') repeat;
+    height: 477px;
+    background: url('../images/header/sand@2x.png') center center no-repeat, url('../images/body/noise.png') repeat;
     background-color: @bodyBackground;
   }
   .board{
     position: absolute;
-    top: 95px;
-    right: 25%;
-    width: 251px;
-    height: 151px;
-    background: url('../images/header/board.png') center center no-repeat;
+    top: 160px;
+    right: 13%;
+    width: 502px;
+    height: 301px;
+    background: url('../images/header/board@2x.png') center center no-repeat;
   }
     .protag{
     position: absolute;
-    top: 95px;
-    left: 20%;
-    width: 161px;
-    height: 172px;
-    background: url('../images/header/protag.png') center center no-repeat;
+    top: 194px;
+    left: 0;
+    width: 322px;
+    height: 343px;
+    background: url('../images/header/protag@2x.png') center center no-repeat;
   }
     .antag{
     position: absolute;
-    top: 175px;
-    right:20%;
-    width: 159px;
-    height: 151px;
-    background: url('../images/header/antag.png') center center no-repeat;
+    top: 331px;
+    right: 0;
+    width: 317px;
+    height: 302px;
+    background: url('../images/header/antag@2x.png') center center no-repeat;
   }
   .front{
     position: relative;
@@ -107,13 +107,35 @@ header{
   .jumbotron {
     position: relative;
     text-align: center;
-    margin-top: 45px;
+    margin-top: 345px;
     margin-bottom: @baseLineHeight * 4;
   }
   nav{
     margin: @baseLineHeight  0;
   }
 }
+
+  @-webkit-keyframes cloud-animation { .keyframe(-151px) };
+     @-moz-keyframes cloud-animation { .keyframe(-151px) };
+       @-o-keyframes cloud-animation { .keyframe(-151px) };
+          @keyframes cloud-animation { .keyframe(-151px) };
+
+  @-webkit-keyframes cloud-animation-2 { .keyframe(50px) };
+     @-moz-keyframes cloud-animation-2 { .keyframe(50px) };
+       @-o-keyframes cloud-animation-2 { .keyframe(50px) };
+          @keyframes cloud-animation-2 { .keyframe(50px) };
+
+  @-webkit-keyframes cloud-animation-3 { .keyframe(300px) };
+     @-moz-keyframes cloud-animation-3 { .keyframe(300px) };
+       @-o-keyframes cloud-animation-3 { .keyframe(300px) };
+          @keyframes cloud-animation-3 { .keyframe(300px) };
+
+  @-webkit-keyframes cloud-animation-4 { .keyframe(800px) };
+     @-moz-keyframes cloud-animation-4 { .keyframe(800px) };
+       @-o-keyframes cloud-animation-4 { .keyframe(800px) };
+          @keyframes cloud-animation-4 { .keyframe(800px) };
+
+
 
 /**
  * Keyframe and animation mixin
@@ -126,29 +148,11 @@ header{
           animation: @keyframe @duration linear infinite @delay;
 }
 
-@-webkit-keyframes cloud-animation {
-  0% { left: -500px; opacity: 0;}
+
+.keyframe(@start-position, @stop-position: 1500px){
+  0% { left: @start-position; opacity: 0;}
   5% {opacity: 100;}
   95% {opacity: 100;}
-  100% { left: 1500px; opacity: 0;}
+  100% { left: @stop-position; opacity: 0;}
 }
 
-@-moz-keyframes cloud-animation {
-  0% { left: -500px; opacity: 0;}
-  5% {opacity: 100;}
-  95% {opacity: 100;}
-  100% { left: 1500px; opacity: 0;}
-}
-
-@-o-keyframes cloud-animation {
-  0% { left: -500px; opacity: 0;}
-  5% {opacity: 100;}
-  95% {opacity: 100;}
-  100% { left: 1500px; opacity: 0;}
-}
-@keyframes cloud-animation {
-  0% { left: -500px; opacity: 0;}
-  5% {opacity: 100;}
-  95% {opacity: 100;}
-  100% { left: 1500px; opacity: 0;}
-}

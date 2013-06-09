@@ -20,35 +20,29 @@ small {
 // }
 
 
-h1,
-h2,
-h3,
-h4,
-h5{
-  text-shadow: -2px 2px 0 @brownLight;
-}
 
 hr{
-  margin: @baseLineHeight * 2 auto;
-  background: url('../images/body/separator-guns.png') 50% 50% no-repeat;
-  width: 395px;
-  height: 62px;
-  border: 0;
+  margin: @baseLineHeight auto;
+  width: 770px;
+  border: 1px solid @brownLight;
+  &.small{
+    width: 500px;
+    margin: 60px auto;
+  }
 }
 
 
 blockquote{
   border: 0;
   p{
-    font-size: @fontSizeLarge;
+    font-size: 28px;
     line-height: @baseLineHeight;
-    font-style: italic;
   }
   small{
     float: right;
     color: @textColor;
     font-weight: bold;
-    font-size: 100%;
+    font-size: 28px;
   }
   em{
     color: @linkColor;
