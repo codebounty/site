@@ -1,29 +1,16 @@
 'use strict';
 
-(function($){
+var quotes = [
+  {
+    msg: 'Code Bounty is a brilliant initiative to help fuel open-source development.',
+    author: 'Marak'
+  }
+];
 
-  /**
-   * Small or Big Hack!
-   */
-  // $('#small').click(function(e){
-  //   e.preventDefault();
-  //   $('header').addClass('small');
-  //   $('#cta').attr('src', 'images/header/badge-chrome.png');
-  // });
-
-  // $('#big').click(function(e){
-  //   e.preventDefault();
-  //   $('header').removeClass('small');
-  //   $('#cta').attr('src', 'images/header/badge-chrome@2x.png');
-  // });
-  //
-
-  /**
-   * Scroll to detail section
-   */
-  $('.howto').click(function(e) {
-    e.preventDefault();
-    $('html,body').stop().animate({scrollTop: $('#howto').offset().top}, 500);
-  });
-
-})(jQuery);
+window.onload=function(){
+  var htmlQuote = document.getElementById('quote');
+  var quote = document.createElement('blockquote');
+  var i = Math.round(Math.random() * (quotes.length - 1));
+  quote.innerHTML = '<p>' + quotes[i].msg + '<\/p>\n<small>' + quotes[i].author + '<\/small>';
+  htmlQuote.parentNode.replaceChild(quote, htmlQuote);
+};
