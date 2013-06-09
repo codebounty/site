@@ -6,27 +6,13 @@ small {
   font-size: @fontSizeSmall;
 }
 
-// .btn,
-// .btn-primary,
-// .btn-info,
-// .btn-success,
-// .btn-warning,
-// .btn-danger,
-// .btn-inverse{
-//   background-image: none;
-//   border: 0;
-//   .box-shadow(none);
-//   text-shadow: none;
-// }
-
-
-
 hr{
-  margin: @baseLineHeight auto;
-  width: 770px;
-  border: 1px solid @brownLight;
+  margin: @baseLineHeight *2  auto;
+  width: 880px;
+  max-width: 100%;
+  border: 1px solid #caac97;
   &.small{
-    width: 500px;
+    width: 550px;
     margin: 60px auto;
   }
 }
@@ -35,14 +21,12 @@ hr{
 blockquote{
   border: 0;
   p{
-    font-size: 28px;
+    font-size: @baseFontSize * 0.9;
     line-height: @baseLineHeight;
   }
   small{
     float: right;
     color: @textColor;
-    font-weight: bold;
-    font-size: 28px;
   }
   em{
     color: @linkColor;
@@ -50,6 +34,10 @@ blockquote{
   a{
     text-decoration: underline;
   }
+}
+
+.light {
+  font-weight: 300;
 }
 
 .align-center {
