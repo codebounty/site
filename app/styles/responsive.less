@@ -1,4 +1,4 @@
-/* phones */
+/* Phones to portrait tablets and narrow desktops */
 @media (max-width: 767px) {
   body {padding: 0; }
   .container{padding: 0 20px; }
@@ -8,11 +8,49 @@
     .board {right: 30px; }
   }
   .capture-bounty-board img{width: auto; }
-  aside img{ display: none;}
   .sheriff-container,
   .github-container{
     text-align: center;
     img{ position: relative;}
   }
+  .mobile-center{
+    text-align: center;
+  }
+  .mobile-left{
+    width: 80%;
+    float: left;
+  }
+  .mobile-right{
+    width: 20%;
+    float: right;
+  }
+  footer .footer-content{
+    line-height: @baseLineHeight;
+    p {
+      text-align: left;
+    }
+  }
+  aside .row .kid {
+    position: relative;
+    top: 0;
+  }
+}
 
+/* Tablets to regular desktops */
+@media (max-width: 979px) and (min-width: 768px) {
+  footer .footer-content{
+    line-height: @baseLineHeight;
+  }
+  .tablet-full-width{
+    width: 100%;
+    display: block;
+    float: none;
+    text-align: left;
+  }
+  .capture-bounty-board {text-align: center }
+  .capture-bounty-board img{width: auto; }
+  .github-container {
+    text-align: center;
+    img{ position: relative;}
+  }
 }

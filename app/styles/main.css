@@ -7721,7 +7721,7 @@ aside .row {
 
 aside .row .kid {
   position: absolute;
-  top: 0;
+  top: -220px;
   right: 0;
 }
 
@@ -7892,7 +7892,7 @@ blockquote a {
   border-color: #484640;
 }
 
-/* phones */
+/* Phones to portrait tablets and narrow desktops */
 
 @media (max-width: 767px) {
   body {
@@ -7913,14 +7913,58 @@ blockquote a {
   .capture-bounty-board img {
     width: auto;
   }
-  aside img {
-    display: none;
-  }
   .sheriff-container,
   .github-container {
     text-align: center;
   }
   .sheriff-container img,
+  .github-container img {
+    position: relative;
+  }
+  .mobile-center {
+    text-align: center;
+  }
+  .mobile-left {
+    float: left;
+    width: 80%;
+  }
+  .mobile-right {
+    float: right;
+    width: 20%;
+  }
+  footer .footer-content {
+    line-height: 31.02px;
+  }
+  footer .footer-content p {
+    text-align: left;
+  }
+  aside .row .kid {
+    position: relative;
+    top: 0;
+  }
+}
+
+/* Tablets to regular desktops */
+
+@media (max-width: 979px) and (min-width: 768px) {
+  footer .footer-content {
+    line-height: 31.02px;
+  }
+  .tablet-full-width {
+    display: block;
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+  .capture-bounty-board {
+    text-align: center;
+  }
+  .capture-bounty-board img {
+    width: auto;
+  }
+  .github-container {
+    text-align: center;
+  }
   .github-container img {
     position: relative;
   }
