@@ -7294,13 +7294,20 @@ header .clouds {
   margin: auto;
 }
 
+header .clouds .cloud-1,
+header .clouds .cloud-2,
+header .clouds .cloud-3,
+header .clouds .cloud-5 {
+  background: url('../images/header/clouds.png') center center no-repeat;
+}
+
 header .clouds .cloud-1 {
   position: absolute;
   top: 70px;
   left: -125px;
   width: 143px;
   height: 41px;
-  background: url('../images/header/cloud-1.png') center center no-repeat;
+  background-position: 0 0;
   -webkit-animation: cloud-animation 500s linear infinite 0s;
      -moz-animation: cloud-animation 500s linear infinite 0s;
        -o-animation: cloud-animation 500s linear infinite 0s;
@@ -7313,7 +7320,7 @@ header .clouds .cloud-2 {
   left: 50px;
   width: 305px;
   height: 91px;
-  background: url('../images/header/cloud-2.png') center center no-repeat;
+  background-position: 0 -41px;
   -webkit-animation: cloud-animation-2 250s linear infinite 0s;
      -moz-animation: cloud-animation-2 250s linear infinite 0s;
        -o-animation: cloud-animation-2 250s linear infinite 0s;
@@ -7326,7 +7333,7 @@ header .clouds .cloud-3 {
   left: 300px;
   width: 394px;
   height: 155px;
-  background: url('../images/header/cloud-3.png') center center no-repeat;
+  background-position: 0 -132px;
   -webkit-animation: cloud-animation-3 330s linear infinite 0s;
      -moz-animation: cloud-animation-3 330s linear infinite 0s;
        -o-animation: cloud-animation-3 330s linear infinite 0s;
@@ -7339,7 +7346,7 @@ header .clouds .cloud-5 {
   left: 800px;
   width: 400px;
   height: 128px;
-  background: url('../images/header/cloud-5.png') center center no-repeat;
+  background-position: 0 -287px;
   -webkit-animation: cloud-animation-5 166s linear infinite 0s;
      -moz-animation: cloud-animation-5 166s linear infinite 0s;
        -o-animation: cloud-animation-5 166s linear infinite 0s;
