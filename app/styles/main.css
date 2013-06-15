@@ -7276,7 +7276,7 @@ a.badge:focus {
  */
 
 header .header-bg {
-  height: 150px;
+  text-align: center;
 }
 
 header .sky {
@@ -7397,7 +7397,7 @@ header .front {
 
 header .jumbotron {
   position: relative;
-  margin-top: 345px;
+  margin-top: 40px;
   margin-bottom: 135.35999999999999px;
   text-align: center;
 }
@@ -7408,6 +7408,10 @@ header nav {
 
 header h1 {
   font-family: "woodshopregular", Georgia, "Times New Roman", Times, serif;
+}
+
+header img {
+  position: relative;
 }
 
 @-webkit-keyframes cloud-animation {
