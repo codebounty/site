@@ -7,7 +7,7 @@ var quotes = [
   }
 ];
 
-window.onload=function(){
+window.onload = function () {
   var htmlQuote = document.getElementById('quote');
   var quote = document.createElement('blockquote');
   var i = Math.round(Math.random() * (quotes.length - 1));
