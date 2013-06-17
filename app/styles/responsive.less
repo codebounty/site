@@ -34,6 +34,9 @@
     position: relative;
     top: 0;
   }
+  hr.small{
+    width: 70%;
+  }
 }
 
 /* Tablets to regular desktops */
@@ -60,6 +63,12 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
+  hr{
+    width: 600px;
+    &.small {
+      width: 400px;
+    }
+  }
 }
 
 /* Desktop */
@@ -72,5 +81,16 @@
   }
   .place-bounty-container{
     padding-left: 40px;
+  }
+}
+
+/* Large Desktop */
+
+@media (min-width: 1200px) {
+  hr{
+    width: 1000px;
+    &.small {
+      width: 700px;
+    }
   }
 }

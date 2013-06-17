@@ -7819,7 +7819,7 @@ small {
 }
 
 hr {
-  width: 880px;
+  width: 825px;
   max-width: 100%;
   margin: 67.67999999999999px auto;
   border: 1px solid #caac97;
@@ -7955,6 +7955,9 @@ blockquote a {
     position: relative;
     top: 0;
   }
+  hr.small {
+    width: 70%;
+  }
 }
 
 /* Tablets to regular desktops */
@@ -7988,6 +7991,12 @@ blockquote a {
        -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
+  hr {
+    width: 600px;
+  }
+  hr.small {
+    width: 400px;
+  }
 }
 
 /* Desktop */
@@ -8001,6 +8010,17 @@ blockquote a {
   }
   .place-bounty-container {
     padding-left: 40px;
+  }
+}
+
+/* Large Desktop */
+
+@media (min-width: 1200px) {
+  hr {
+    width: 1000px;
+  }
+  hr.small {
+    width: 700px;
   }
 }
 
