@@ -11,7 +11,10 @@
   .sheriff-container,
   .github-container{
     text-align: center;
-    img{ position: relative;}
+    img{
+      position: relative;
+      max-width: 100%;
+    }
   }
   .mobile-center{
     text-align: center;
@@ -34,8 +37,11 @@
     position: relative;
     top: 0;
   }
-  hr.small{
-    width: 70%;
+  hr{
+    width: 90%;
+    &.small{
+      width: 70%;
+    }
   }
 }
 
