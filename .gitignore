@@ -23,4 +23,4 @@ dist
 .sass-cache
 .idea/
 app/components
-styles/main.css
+app/styles/main.css
