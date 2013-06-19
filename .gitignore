@@ -21,4 +21,6 @@ node_modules
 dist
 .tmp
 .sass-cache
+.idea/
 app/components
+styles/main.css
