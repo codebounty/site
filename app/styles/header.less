@@ -1,175 +1,181 @@
 /**
  * Header
  */
-header{
-  .header-bg {
-    text-align: center;
-    img{
-      margin-top: -92px;
+header {
+    .header-bg {
+        text-align: center;
+        img {
+            margin-top: -92px;
+        }
     }
-  }
-  .sky{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 203px;
-    background: #96BEE4;
-    // background: #96BEE4 url('../images/header/sky.png') center center no-repeat;
-  }
-  .clouds{
-    margin: auto;
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    height: 203px;
-    // background: url('../images/header/clouds.png') center center no-repeat;
-    .cloud-1,
-    .cloud-2,
-    .cloud-3,
-    .cloud-5 {
-      background: url('../images/header/clouds.png') center center no-repeat;
+    .sky {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 203px;
+        background: #96BEE4;
+        // background: #96BEE4 url('../images/header/sky.png') center center no-repeat;
     }
-    .cloud-1 {
-      position: absolute;
-      background-position: 0 0;
-      width: 143px;
-      height: 41px;
-      top: 70px;
-      left: -125px;
-      .animation(cloud-animation, 500s);
-      // -webkit-animation: cloud-animation 83s linear infinite;
+    .clouds {
+        margin: auto;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 203px;
+        // background: url('../images/header/clouds.png') center center no-repeat;
+        .cloud-1,
+        .cloud-2,
+        .cloud-3,
+        .cloud-5 {
+            background: url('../images/header/clouds.png') center center no-repeat;
+        }
+        .cloud-1 {
+            position: absolute;
+            background-position: 0 0;
+            width: 143px;
+            height: 41px;
+            top: 70px;
+            left: -125px;
+            .animation(cloud-animation, 500s);
+            // -webkit-animation: cloud-animation 83s linear infinite;
+        }
+        .cloud-2 {
+            position: absolute;
+            background-position: 0 -41px;
+            width: 305px;
+            height: 91px;
+            top: 20px;
+            left: 50px;
+            .animation(cloud-animation-2, 250s);
+            // -webkit-animation: cloud-animation 125s linear infinite;
+        }
+        .cloud-3 {
+            position: absolute;
+            background-position: 0 -132px;
+            width: 394px;
+            height: 155px;
+            top: 20px;
+            left: 300px;
+            .animation(cloud-animation-3, 330s);
+            // -webkit-animation: cloud-animation 166s linear infinite;
+        }
+        .cloud-5 {
+            position: absolute;
+            background-position: 0 -287px;
+            width: 400px;
+            height: 128px;
+            top: 5px;
+            left: 800px;
+            .animation(cloud-animation-5, 166s);
+            // -webkit-animation: cloud-animation 249s linear infinite;
+        }
     }
-    .cloud-2 {
-      position: absolute;
-      background-position: 0 -41px;
-      width: 305px;
-      height: 91px;
-      top: 20px;
-      left: 50px;
-      .animation(cloud-animation-2, 250s);
-      // -webkit-animation: cloud-animation 125s linear infinite;
-    }
-    .cloud-3 {
-      position: absolute;
-      background-position: 0 -132px;
-      width: 394px;
-      height: 155px;
-      top: 20px;
-      left: 300px;
-      .animation(cloud-animation-3, 330s);
-      // -webkit-animation: cloud-animation 166s linear infinite;
-    }
-    .cloud-5 {
-      position: absolute;
-      background-position: 0 -287px;
-      width: 400px;
-      height: 128px;
-      top: 5px;
-      left: 800px;
-      .animation(cloud-animation-5, 166s);
-      // -webkit-animation: cloud-animation 249s linear infinite;
-    }
-  }
-  .crops{
-    position: absolute;
-    top: 5px;
-    width: 100%;
-    height: 203px;
-    background: url('../images/header/crops.png') 44% center no-repeat;
+    .crops {
+        position: absolute;
+        top: 5px;
+        width: 100%;
+        height: 203px;
+        background: url('../images/header/crops.png') 44% center no-repeat;
 
-  }
-  .sand{
-    position: absolute;
-    top: 206px;
-    width: 100%;
-    height: 358px;
-    background: url('../images/header/sand.png') center center no-repeat, url('../images/body/noise.png') repeat;
-    background-color: @bodyBackground;
-  }
-  .board{
-    position: absolute;
-    top: 120px;
-    right: 13%;
-    width: 376px;
-    height: 225px;
-    background: url('../images/header/board.png') center center no-repeat;
-  }
-    .protag{
-    position: absolute;
-    top: 140px;
-    left: 0;
-    width: 241px;
-    height: 257px;
-    background: url('../images/header/protag.png') center center no-repeat;
-  }
-    .antag{
-    position: absolute;
-    top: 240px;
-    right: 0;
-    width: 238px;
-    height: 227px;
-    background: url('../images/header/antag.png') center center no-repeat;
-  }
-  .front{
-    position: relative;
-    top: -111px;
-  }
-  .jumbotron {
-    position: relative;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: @baseLineHeight * 4;
-  }
-  nav{
-    margin: @baseLineHeight  0;
-  }
-  h1{
-    font-family: @serifFontFamily;
-  }
-  img{
-    position: relative;
-  }
+    }
+    .sand {
+        position: absolute;
+        top: 206px;
+        width: 100%;
+        height: 358px;
+        background: url('../images/header/sand.png') center center no-repeat, url('../images/body/noise.png') repeat;
+        background-color: @bodyBackground;
+    }
+    .board {
+        position: absolute;
+        top: 120px;
+        right: 13%;
+        width: 376px;
+        height: 225px;
+        background: url('../images/header/board.png') center center no-repeat;
+    }
+    .protag {
+        position: absolute;
+        top: 140px;
+        left: 0;
+        width: 241px;
+        height: 257px;
+        background: url('../images/header/protag.png') center center no-repeat;
+    }
+    .antag {
+        position: absolute;
+        top: 240px;
+        right: 0;
+        width: 238px;
+        height: 227px;
+        background: url('../images/header/antag.png') center center no-repeat;
+    }
+    .front {
+        position: relative;
+        top: -111px;
+    }
+    .jumbotron {
+        position: relative;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: @baseLineHeight * 4;
+    }
+    nav {
+        margin: @baseLineHeight  0;
+    }
+    h1 {
+        font-family: @serifFontFamily;
+    }
+    img {
+        position: relative;
+    }
 }
 
-  @-webkit-keyframes cloud-animation { .keyframe(-151px) };
-     @-moz-keyframes cloud-animation { .keyframe(-151px) };
-       @-o-keyframes cloud-animation { .keyframe(-151px) };
-          @keyframes cloud-animation { .keyframe(-151px) };
 
-  @-webkit-keyframes cloud-animation-2 { .keyframe(50px) };
-     @-moz-keyframes cloud-animation-2 { .keyframe(50px) };
-       @-o-keyframes cloud-animation-2 { .keyframe(50px) };
-          @keyframes cloud-animation-2 { .keyframe(50px) };
+@-webkit-keyframes cloud-animation { .keyframe(-151px) };
+@-moz-keyframes cloud-animation { .keyframe(-151px) };
+@-o-keyframes cloud-animation { .keyframe(-151px) };
+@keyframes cloud-animation { .keyframe(-151px) };
 
-  @-webkit-keyframes cloud-animation-3 { .keyframe(300px) };
-     @-moz-keyframes cloud-animation-3 { .keyframe(300px) };
-       @-o-keyframes cloud-animation-3 { .keyframe(300px) };
-          @keyframes cloud-animation-3 { .keyframe(300px) };
+@-webkit-keyframes cloud-animation-2 { .keyframe(50px) };
+@-moz-keyframes cloud-animation-2 { .keyframe(50px) };
+@-o-keyframes cloud-animation-2 { .keyframe(50px) };
+@keyframes cloud-animation-2 { .keyframe(50px) };
 
-  @-webkit-keyframes cloud-animation-5 { .keyframe(800px) };
-     @-moz-keyframes cloud-animation-5 { .keyframe(800px) };
-       @-o-keyframes cloud-animation-5 { .keyframe(800px) };
-          @keyframes cloud-animation-5 { .keyframe(800px) };
+@-webkit-keyframes cloud-animation-3 { .keyframe(300px) };
+@-moz-keyframes cloud-animation-3 { .keyframe(300px) };
+@-o-keyframes cloud-animation-3 { .keyframe(300px) };
+@keyframes cloud-animation-3 { .keyframe(300px) };
 
-
-
+@-webkit-keyframes cloud-animation-5 { .keyframe(800px) };
+@-moz-keyframes cloud-animation-5 { .keyframe(800px) };
+@-o-keyframes cloud-animation-5 { .keyframe(800px) };
+@keyframes cloud-animation-5 { .keyframe(800px) };
 
 /**
  * Keyframe and animation mixin
  */
 
-.animation(@keyframe, @duration, @delay: 0s){
-  -webkit-animation: @keyframe @duration linear infinite @delay;
-     -moz-animation: @keyframe @duration linear infinite @delay;
-       -o-animation: @keyframe @duration linear infinite @delay;
-          animation: @keyframe @duration linear infinite @delay;
+.animation(@keyframe, @duration, @delay: 0s) {
+    -webkit-animation: @keyframe @duration linear infinite @delay;
+    -moz-animation: @keyframe @duration linear infinite @delay;
+    -o-animation: @keyframe @duration linear infinite @delay;
+    animation: @keyframe @duration linear infinite @delay;
 }
 
-
-.keyframe(@start-position, @stop-position: 1500px){
-  0% { left: @start-position; opacity: 0;}
-  5% {opacity: 100;}
-  95% {opacity: 100;}
-  100% { left: @stop-position; opacity: 0;}
+.keyframe(@start-position, @stop-position: 1500px) {
+    0% {
+        left: @start-position;
+        opacity: 0;
+    }
+    5% {
+        opacity: 100;
+    }
+    95% {
+        opacity: 100;
+    }
+    100% {
+        left: @stop-position;
+        opacity: 0;
+    }
 }
-

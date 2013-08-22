@@ -1,62 +1,64 @@
-body { overflow-x: hidden;}
-
-.main header{
-  text-align: center;
-  h3 {
-    // font-size: @baseFontSize * 1.75;
-    margin-top: 20px;
-  }
-  .sheriff-2{
-    margin-top: 43px;
-  }
-  & > img {
-    zoom: 80%;
-  }
+body {
+    overflow-x: hidden;
 }
 
-blockquote{
-  padding: @baseLineHeight / 2 0 0;
-  p{
-    // font-size: 28px !important;
-    font-weight: bold;
-    font-style: normal;
-  }
+.main header {
+    text-align: center;
+    h3 {
+        // font-size: @baseFontSize * 1.75;
+        margin-top: 20px;
+    }
+    .sheriff-2 {
+        margin-top: 43px;
+    }
+    & > img {
+        zoom: 80%;
+    }
 }
 
-aside .row{
-  position: relative;
-  .kid{
+blockquote {
+    padding: @baseLineHeight / 2 0 0;
+    p {
+        // font-size: 28px !important;
+        font-weight: bold;
+        font-style: normal;
+    }
+}
+
+aside .row {
+    position: relative;
+    .kid {
+        position: absolute;
+        top: -220px;
+        right: 0;
+    }
+}
+
+.service:after {
     position: absolute;
-    top: -220px;
-    right: 0;
-  }
-}
-
-.service:after{
-  position: absolute;
-  bottom: 0;
-  content: "";
-  width: 100%;
-  height: @baseLineHeight *8;
-}
-
-.capture-bounty-board{
-  text-align: center;
-  img{
+    bottom: 0;
+    content: "";
     width: 100%;
-  }
+    height: @baseLineHeight *8;
 }
 
-.github-container img{
-  margin-left: -80px;
-  max-width: initial;
+.capture-bounty-board {
+    text-align: center;
+    img {
+        width: 100%;
+    }
 }
 
-.sheriff-container{
-  position: relative;
-  img{
-    position: absolute;
-    right: 0;
+.github-container img {
+    margin-left: -80px;
     max-width: initial;
-  }
+}
+
+.sheriff-container {
+    position: relative;
+    img {
+        position: absolute;
+        right: 0;
+        max-width: initial;
+    }
 }

@@ -1,82 +1,80 @@
 body {
-  background: @bodyBackground url('../images/body/noise.png');
+    background: @bodyBackground url('../images/body/noise.png');
 }
 
 small {
-  font-size: @fontSizeSmall;
+    font-size: @fontSizeSmall;
 }
 
-hr{
-  margin: @baseLineHeight *2  auto;
-  width: 825px;
-  max-width: 100%;
-  border: 1px solid #caac97;
-  &.small{
-    width: 550px;
-    margin: 60px auto;
-  }
+hr {
+    margin: @baseLineHeight *2  auto;
+    width: 825px;
+    max-width: 100%;
+    border: 1px solid #caac97;
+    &.small {
+        width: 550px;
+        margin: 60px auto;
+    }
 }
 
-
-blockquote{
-  border: 0;
-  p{
-    font-size: @baseFontSize;
-    line-height: @baseLineHeight;
-    font-weight: normal;
-  }
-  small{
-    font-size: @baseFontSize * 0.9;
-    float: right;
-    color: @textColor;
-  }
-  em{
-    color: @linkColor;
-  }
-  a{
-    text-decoration: underline;
-  }
+blockquote {
+    border: 0;
+    p {
+        font-size: @baseFontSize;
+        line-height: @baseLineHeight;
+        font-weight: normal;
+    }
+    small {
+        font-size: @baseFontSize * 0.9;
+        float: right;
+        color: @textColor;
+    }
+    em {
+        color: @linkColor;
+    }
+    a {
+        text-decoration: underline;
+    }
 }
 
 .light {
-  font-weight: 300;
+    font-weight: 300;
 }
 
 .align-center {
-  text-align: center;
+    text-align: center;
 }
 
 .align-right {
-  text-align: right;
+    text-align: right;
 }
 
-.button{
-  padding: 6px 10px;
-  margin: 20px 5px;
-  .border-radius(@baseBorderRadius);
-  border: 3px solid @brown;
-  // #translucent > .border(@brownLight, 1);
-  // color: rgba(255, 255, 255, .5);
-  color: @brown;
-  background-image: 0;
-  text-shadow: 0;
-  text-transform: uppercase;
-  font-size: @fontSizeSmall;
-  .transition(all linear .3s);
-  &:hover{
-    text-decoration: none;
-    border-color: @brownDark;
-  }
-  &.primary{
-    #translucent > .border(@brown, 1);
+.button {
+    padding: 6px 10px;
+    margin: 20px 5px;
+    .border-radius(@baseBorderRadius);
+    border: 3px solid @brown;
+    // #translucent > .border(@brownLight, 1);
+    // color: rgba(255, 255, 255, .5);
+    color: @brown;
     background-image: 0;
-    background-color: @brown;
-    color: @brownLighter;
     text-shadow: 0;
-    &:hover{
-      background-color: @brownDark;
-      border-color: @brownDark;
+    text-transform: uppercase;
+    font-size: @fontSizeSmall;
+    .transition(all linear .3s);
+    &:hover {
+        text-decoration: none;
+        border-color: @brownDark;
     }
-  }
+    &.primary {
+        #translucent > .border(@brown, 1);
+        background-image: 0;
+        background-color: @brown;
+        color: @brownLighter;
+        text-shadow: 0;
+        &:hover {
+            background-color: @brownDark;
+            border-color: @brownDark;
+        }
+    }
 }
-

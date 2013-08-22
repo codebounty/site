@@ -1,102 +1,137 @@
 /* Phones to portrait tablets and narrow desktops */
 @media (max-width: 767px) {
-  body {padding: 0; }
-  .container{padding: 0 20px; }
-  header {
-    .protag {left: 0; }
-    .antag {right: 0; }
-    .board {right: 30px; }
-  }
-  .capture-bounty-board img{width: auto; }
-  .sheriff-container,
-  .github-container{
-    text-align: center;
-    img{
-      position: relative;
-      max-width: 100%;
+    body {
+        padding: 0;
     }
-  }
-  .mobile-center{
-    text-align: center;
-  }
-  .mobile-left{
-    width: 80%;
-    float: left;
-  }
-  .mobile-right{
-    width: 20%;
-    float: right;
-  }
-  footer .footer-content{
-    line-height: @baseLineHeight;
-    p {
-      text-align: left;
+
+    .container {
+        padding: 0 20px;
     }
-  }
-  aside .row .kid {
-    position: relative;
-    top: 0;
-  }
-  hr{
-    width: 90%;
-    &.small{
-      width: 70%;
+
+    header {
+        .protag {
+            left: 0;
+        }
+        .antag {
+            right: 0;
+        }
+        .board {
+            right: 30px;
+        }
     }
-  }
+
+    .capture-bounty-board img {
+        width: auto;
+    }
+
+    .sheriff-container,
+    .github-container {
+        text-align: center;
+        img {
+            position: relative;
+            max-width: 100%;
+        }
+    }
+
+    .mobile-center {
+        text-align: center;
+    }
+
+    .mobile-left {
+        width: 80%;
+        float: left;
+    }
+
+    .mobile-right {
+        width: 20%;
+        float: right;
+    }
+
+    footer .footer-content {
+        line-height: @baseLineHeight;
+        p {
+            text-align: left;
+        }
+    }
+
+    aside .row .kid {
+        position: relative;
+        top: 0;
+    }
+
+    hr {
+        width: 90%;
+        &.small {
+            width: 70%;
+        }
+    }
 }
 
 /* Tablets to regular desktops */
 @media (max-width: 979px) and (min-width: 768px) {
-  footer .footer-content{
-    line-height: @baseLineHeight;
-  }
-  .tablet-full-width{
-    width: 100%;
-    display: block;
-    float: none;
-    text-align: left;
-  }
-  .capture-bounty-board {text-align: center }
-  .capture-bounty-board img{width: auto; }
-  .github-container {
-    text-align: center;
-    img{ position: relative;}
-  }
-  .place-bounty-container,
-  .collect-reward {
-    padding-left: 40px;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  hr{
-    width: 600px;
-    &.small {
-      width: 400px;
+    footer .footer-content {
+        line-height: @baseLineHeight;
     }
-  }
+
+    .tablet-full-width {
+        width: 100%;
+        display: block;
+        float: none;
+        text-align: left;
+    }
+
+    .capture-bounty-board {
+        text-align: center
+    }
+
+    .capture-bounty-board img {
+        width: auto;
+    }
+
+    .github-container {
+        text-align: center;
+        img {
+            position: relative;
+        }
+    }
+
+    .place-bounty-container,
+    .collect-reward {
+        padding-left: 40px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    hr {
+        width: 600px;
+        &.small {
+            width: 400px;
+        }
+    }
 }
 
 /* Desktop */
 @media (min-width: 980px) {
-  .capture-bounty{
-    padding-right: 40px;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  .place-bounty-container{
-    padding-left: 40px;
-  }
+    .capture-bounty {
+        padding-right: 40px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .place-bounty-container {
+        padding-left: 40px;
+    }
 }
 
 /* Large Desktop */
 
 @media (min-width: 1200px) {
-  hr{
-    width: 1000px;
-    &.small {
-      width: 700px;
+    hr {
+        width: 1000px;
+        &.small {
+            width: 700px;
+        }
     }
-  }
 }

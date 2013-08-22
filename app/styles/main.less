@@ -2,8 +2,8 @@
  * import dependencies
  */
 @import "../components/bootstrap/less/bootstrap.less";
-@import "../components/bootstrap/less/responsive.less"; // Don't forget to comment lines 21 and 22 to remove the second import call to **mixin.less** and **variable.less**
-
+@import "../components/bootstrap/less/responsive.less";
+    // Don't forget to comment lines 21 and 22 to remove the second import call to **mixin.less** and **variable.less**
 @import "fonts.less";
 @import "header.less";
 @import "body.less";
@@ -13,36 +13,32 @@
 
 // @import "hacks.less";
 
-@brownDarker:           #201f1c;
-@brownDark:             #484640;
-@brown:                 #78665a;
-@brownLight:            #b49f82;
-@brownLighter:          #e0c39d;
+@brownDarker: #201f1c;
+@brownDark: #484640;
+@brown: #78665a;
+@brownLight: #b49f82;
+@brownLighter: #e0c39d;
 
-@bodyBackground:        @brownLighter;
-@textColor:             @brown;
-@linkColor:             @brownDarker;
+@bodyBackground: @brownLighter;
+@textColor: @brown;
+@linkColor: @brownDarker;
 
+@sansFontFamily: "lato", Helvetica, Arial, sans-serif;
+@serifFontFamily: "woodshopregular", Georgia, "Times New Roman", Times, serif;
+@headingsFontFamily: @sansFontFamily;
+@headingsColor: @brownDark;
 
-@sansFontFamily:        "lato", Helvetica, Arial, sans-serif;
-@serifFontFamily:       "woodshopregular", Georgia, "Times New Roman", Times, serif;
-@headingsFontFamily:    @sansFontFamily;
-@headingsColor:         @brownDark;
-
-@baseFontSize:          24px;
+@baseFontSize: 24px;
 // @baseFontSize:          30px;
-@fontSizeSmall:         @baseFontSize * 0.75; // ~12px
-@baseLineHeight:        @baseFontSize * 1.41;
+@fontSizeSmall: @baseFontSize * 0.75; // ~12px
+@baseLineHeight: @baseFontSize * 1.41;
 
-h1{
-  font-size: 50px;
-  line-height: 1em;
+h1 {
+    font-size: 50px;
+    line-height: 1em;
 }
 
-h3{
-  font-size: 41px;
-  line-height: 1em;
+h3 {
+    font-size: 41px;
+    line-height: 1em;
 }
-
-
-
